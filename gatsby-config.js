@@ -3,7 +3,6 @@ module.exports = {
     title: 'Darren Jennings',
     author: 'Darren Jennings',
   },
-  pathPrefix: `/spaceman-spiffy`,
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
