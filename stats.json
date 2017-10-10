@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---spaceman-spiffy": [
-      "path---spaceman-spiffy-4a2630946f35c5df3e3e.js",
-      "path---spaceman-spiffy-4a2630946f35c5df3e3e.js.map"
+      "path---spaceman-spiffy-d71c9e410e41584d6d44.js",
+      "path---spaceman-spiffy-d71c9e410e41584d6d44.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-5bcfae4f183347a71f5f.js",
@@ -25,8 +25,8 @@
       "component---src-layouts-index-js-ef550d8295c6bf2f6d71.js.map"
     ],
     "path---index": [
-      "path---index-eb452b82ae43cba3ae43.js",
-      "path---index-eb452b82ae43cba3ae43.js.map"
+      "path---index-703af51de1f493040cb3.js",
+      "path---index-703af51de1f493040cb3.js.map"
     ],
     "commons": [
       "commons-43f8f5d7ea0f22982c51.js",
