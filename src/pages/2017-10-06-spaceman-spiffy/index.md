@@ -1,5 +1,5 @@
 ---
-title: spaceman-spiffy
+title: spaceman-spiffy-blog
 date: "2017-10-06T04:37:09.338Z"
 path: "/spaceman-spiffy/"
 
