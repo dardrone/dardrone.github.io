@@ -1,0 +1,48 @@
+{
+  "assetsByChunkName": {
+    "path---spaceman-spiffy": [
+      "path---spaceman-spiffy-4a2630946f35c5df3e3e.js",
+      "path---spaceman-spiffy-4a2630946f35c5df3e3e.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-5bcfae4f183347a71f5f.js",
+      "component---src-pages-index-js-5bcfae4f183347a71f5f.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-06cbfa30a31ff041436f.js",
+      "component---src-templates-blog-post-js-06cbfa30a31ff041436f.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-ef550d8295c6bf2f6d71.js",
+      "component---src-layouts-index-js-ef550d8295c6bf2f6d71.js.map"
+    ],
+    "path---index": [
+      "path---index-eb452b82ae43cba3ae43.js",
+      "path---index-eb452b82ae43cba3ae43.js.map"
+    ],
+    "commons": [
+      "commons-43f8f5d7ea0f22982c51.js",
+      "build-js-styles.css",
+      "commons-43f8f5d7ea0f22982c51.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-1fc2ba2485e175184894.js",
+      "build-js-styles.css",
+      "app-1fc2ba2485e175184894.js.map",
+      "build-js-styles.css.map"
+    ]
+  }
+}
