@@ -1,0 +1,9 @@
+.avatar {
+  border-radius: 50%;
+  height: 72px;
+  width: 72px;
+  border: 2px solid #fff;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+}
