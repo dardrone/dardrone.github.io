@@ -1,9 +1,5 @@
 {
   "assetsByChunkName": {
-    "path---spaceman-spiffy": [
-      "path---spaceman-spiffy-d71c9e410e41584d6d44.js",
-      "path---spaceman-spiffy-d71c9e410e41584d6d44.js.map"
-    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-5bcfae4f183347a71f5f.js",
       "component---src-pages-index-js-5bcfae4f183347a71f5f.js.map"
@@ -25,8 +21,8 @@
       "component---src-layouts-index-js-ef550d8295c6bf2f6d71.js.map"
     ],
     "path---index": [
-      "path---index-703af51de1f493040cb3.js",
-      "path---index-703af51de1f493040cb3.js.map"
+      "path---index-553923da120326b2b170.js",
+      "path---index-553923da120326b2b170.js.map"
     ],
     "commons": [
       "commons-43f8f5d7ea0f22982c51.js",
@@ -39,10 +35,14 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-1fc2ba2485e175184894.js",
+      "app-5cd6b9f6bb3c02ec7945.js",
       "build-js-styles.css",
-      "app-1fc2ba2485e175184894.js.map",
+      "app-5cd6b9f6bb3c02ec7945.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---spaceman-spiffy-blog": [
+      "path---spaceman-spiffy-blog-44b88960de03f8d1f44e.js",
+      "path---spaceman-spiffy-blog-44b88960de03f8d1f44e.js.map"
     ]
   }
 }
