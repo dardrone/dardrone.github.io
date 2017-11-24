@@ -1,5 +1,5 @@
 ---
-title: spaceman-spiffy-blog
+title: Calvin and Hobbes Search
 date: "2017-10-06T04:37:09.338Z"
 path: "/spaceman-spiffy/"
 
@@ -11,7 +11,7 @@ I recently visited my hometown of Louisville, KY, where the coffee flows like wi
 
 While in Louisville I used my [Frontend Master](https://www.frontendmasters.com) subscription to listen to [Brian Holt's](https://twitter.com/holtbt) introduction course on Reactjs. I had previously built a react app at [zTailors][https://www.generationtux.com] and had learned a lot, but was glad to learn some tips and also to catch up on what's current in the react toolkit. Brian does a great job and I used the opportunity to build a Calvin and Hobbes Search.
 
-![Spaceman spif is crushing it.](./spaceman.gif)
+<img src="./spaceman.gif" class="shadow" alt="Spaceman spif is crushing it."/>
 
 Some of the technologies I used:
  
@@ -21,7 +21,7 @@ Some of the technologies I used:
 * [Semantic UI](semantic-ui.com) - a UI library for quick bootstrapping.
 * [Jest](https://facebook.github.io/jest/)
 * [ESLint](https://eslint.org/) Javascript linter, specifically Airbnb's config.
-* [Scrapy](https://scrapy.org/) - Python scraper for populating the massive json config from [Go Comies](http://www.gocomics.com/calvinandhobbes) so that the images can be cross domain hosted.
+* [Scrapy](https://scrapy.org/) - Python scraper for populating the massive json config from [Go Comics](http://www.gocomics.com/calvinandhobbes) so that the images can be cross domain hosted.
 
 I named the app after the esteemable Spaceman Spiff.
 

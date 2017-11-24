@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Container } from 'react-responsive-grid'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 
@@ -12,27 +13,41 @@ class PostMarkdownTemplate extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
 
     return (
-      <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>{post.frontmatter.title}</h1>
-        <p
+      <Container
+        style={{
+          maxWidth: rhythm(24),
+          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        }}
+      >
+        <div
           style={{
-            ...scale(-1 / 5),
-            display: 'block',
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
+            width: '100%',
+            maxWidth: '800px',
+            margin: '0 auto',
+            padding: '15px',
           }}
         >
-          {post.frontmatter.date}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        <Bio />
-      </div>
+          <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+          <h1>{post.frontmatter.title}</h1>
+          <p
+            style={{
+              ...scale(-1 / 5),
+              display: 'block',
+              marginBottom: rhythm(1),
+              marginTop: rhythm(-1),
+            }}
+          >
+            {post.frontmatter.date}
+          </p>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <hr
+            style={{
+              marginBottom: rhythm(1),
+            }}
+          />
+          <Bio name={siteTitle} />
+        </div>
+      </Container>
     )
   }
 }

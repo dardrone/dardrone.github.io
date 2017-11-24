@@ -1,6 +1,387 @@
-.avatar {
-  border-radius: 50%;
+::-moz-selection {
+  background: rgba(24, 139, 177, 0.15);
+}
+::selection {
+  background: rgba(24, 139, 177, 0.15);
+}
+
+body {
+  border: 0;
+  font: inherit;
+}
+
+section {
+  display: block;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+*,
+*:before,
+*:after {
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  color: #fff;
+}
+.hidden {
+  display: none;
+}
+html,
+body {
+  height: 100%;
+}
+::-moz-selection {
+  background: rgba(24, 139, 177, 0.15);
+}
+::selection {
+  background: rgba(24, 139, 177, 0.15);
+}
+li {
+  margin-left: 1.5em;
+}
+p {
+  line-height: 1.7;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+p,
+ol,
+ul {
+  font-size: 1.2rem;
+  line-height: 1.55;
+  margin: 0 0 1em;
+  color: #222;
+}
+
+a {
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+  color: #222;
+  border-bottom: 1px solid rgba(24, 139, 177, 0.5);
+  &:hover {
+    border-bottom: none;
+    background-image: url('../components/underline.svg');
+    background-position: bottom center;
+    background-size: 16px 4px;
+    background-repeat: repeat-x;
+  }
+}
+
+blockquote {
+  padding-left: 15px;
+  border-left: 3px solid #eee;
+}
+
+hr {
+  display: block;
+  border: 0;
+  height: 2px;
+  margin: 48px auto;
+  background: #f4f4f4;
+}
+
+span.code {
+  font-family: Menlo, Monaco, Courier;
+  background-color: #eee;
+  font-size: 14px;
+}
+
+pre {
+  font-family: Menlo, Monaco, Courier;
+  white-space: pre-wrap;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fdfdfd;
+  font-size: 14px;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  &.shadow{
+    box-shadow: 4px 8px 8px 0 rgba(0,0,0,0.1),0 2px 20px 0 rgba(0,0,0,0.1);
+  }
+}
+#footer {
+  box-shadow: inset 0 1px 0 #eee;
+  padding: 40px 0 0 0;
+  margin-top: 100px;
+  max-width: 1400px;
+  margin: 100px auto;
+}
+#wrapper > footer {
+  border-top: 1px solid #eee;
+  padding: 48px 0 48px;
+}
+
+#wrapper.home header a {
+  margin: 0 24px 1em 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.home header {
+  position: relative;
+  padding: 100px 0 0;
+  margin-bottom: 100px;
+
+  .avatar {
+    width: 375px;
+    position: absolute;
+    transition: 0.7s all ease;
+    opacity: 0.25;
+    right: 0;
+    top: 0;
+
+    &:hover {
+      opacity: 0.7;
+      transition: 0.7s all ease;
+    }
+  }
+
+  h1 {
+    max-width: 650px;
+    font-weight: 700;
+    margin: 0 0 48px;
+    position: relative;
+    z-index: 10;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+  }
+}
+
+.home hr {
+  display: block;
+  border: 0;
+  height: 1px;
+  margin-top: 0;
+  background: #eee;
+  min-width: 128px;
+}
+.post-footer {
+  max-width: 640px;
+  margin: 48px auto;
+  border-top: 1px solid #eee;
+  padding: 48px 0;
+}
+.post-footer > div {
+  margin-left: 96px;
+}
+.post-footer .avatar {
+  float: left;
+  width: 64px;
+  border-radius: 50%;
+}
+.post.work header {
+  margin: 140px auto 0;
+}
+.post.work header h1 {
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 57px;
+  letter-spacing: -0.02em;
+  max-width: 10em;
+  margin: 16px 0 36px;
+}
+.post.work header .headline {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #188bb1;
+  margin-bottom: 0;
+}
+.post.work header .headline a {
+  border: 0;
+}
+#post-meta div {
+  margin: 0 25px 0 0;
+  float: left;
+}
+#header {
+  padding: 48px 0 0 24px;
+}
+#header a {
+  margin-right: 48px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+@media screen and (max-width: 540px) {
+  #wrapper {
+    padding: 20px 20px 20px 20px;
+    &.home header a {
+      margin: 0 15px 1.5em 0;
+    }
+  }
+  .post {
+    margin: 40px 0;
+  }
+  #footer {
+    margin-top: 60px;
+  }
+  #title {
+    font-size: 17px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+}
+#title {
+  border: 0;
+}
+#wrapper {
+  padding: 50px 6.4%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin: 2em 0 0.5em;
+  color: #222;
+  font-weight: 600;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+h3 {
+  margin: 1em 0 0.5em;
+  font-size: 21px;
+}
+.post h1 {
+  font-size: 36px;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  margin-top: 48px;
+  text-align: left;
+  margin-bottom: 0;
+}
+.post h2,
+.post p,
+.post h3,
+.post hr,
+.post h4,
+.post ul,
+.post ol,
+.post .wrap,
+.post blockquote {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h4 {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.post blockquote p {
+  font-size: 2em;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  padding-left: 48px;
+  letter-spacing: -0.01em;
+  margin: 3em 0;
+}
+.post .wrap .two {
+  width: 50%;
+  display: inline-block;
+}
+
+.post header {
+  margin: 0 auto;
+  max-width: 640px;
+}
+.post .headline {
+  font-weight: normal;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  margin: 0 0 24px 0;
+  padding: 0;
+  color: #888;
+}
+.post .headline a {
+  color: #888;
+  border: 0;
+}
+.dls {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.post .big {
+  margin: 0 auto 40px auto;
+  font-weight: normal;
+  text-align: center;
+  color: #111;
+}
+#post-meta {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  line-height: 1.4;
+  border-top: 1px solid #eee;
+  max-width: 640px;
+  padding: 40px 0;
+  margin: 80px auto;
+}
+
+@media (max-width: 768px) {
+  .home hr {
+    margin: 40px 0;
+  }
+  h1 {
+    margin-top: 0.5em;
+  }
+}
+@media (min-width: 960px) {
+  #wrapper.home,
+  .wrapper.home {
+    max-width: 1400px;
+  }
+  .home header {
+    padding-top: 180px;
+    padding-bottom: 60px;
+  }
+  .home header .avatar {
+    opacity: 0.8;
+    right: 0;
+    bottom: 0;
+    top: auto;
+  }
+  .home header h1 {
+    font-size: 42px;
+  }
+  .column {
+    width: 30%;
+    float: left;
+    margin: 0 5% 0 0;
+  }
+  .column:last-child {
+    margin-right: 0;
+  }
 }
