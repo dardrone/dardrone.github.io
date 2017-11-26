@@ -1,7 +1,7 @@
 ---
 title: Calvin and Hobbes Search
 date: "2017-10-06T04:37:09.338Z"
-path: "/spaceman-spiffy/"
+path: "/spaceman-spiffy-blog/"
 
 ---
 > **tl;dr** Check out <a href="https://darrenjennings.github.io/spaceman-spiffy" target="_blank">this cool app I built!</a>

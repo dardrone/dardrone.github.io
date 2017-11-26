@@ -16,7 +16,7 @@ class PostMarkdownTemplate extends React.Component {
       <Container
         style={{
           maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          padding: `${rhythm(0)} ${rhythm(3 / 4)}`,
         }}
       >
         <div
@@ -24,7 +24,7 @@ class PostMarkdownTemplate extends React.Component {
             width: '100%',
             maxWidth: '800px',
             margin: '0 auto',
-            padding: '15px',
+            padding: '5px',
           }}
         >
           <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
