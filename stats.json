@@ -1,9 +1,5 @@
 {
   "assetsByChunkName": {
-    "path---spaceman-spiffy": [
-      "path---spaceman-spiffy-92fa2a53676f51fd0d63.js",
-      "path---spaceman-spiffy-92fa2a53676f51fd0d63.js.map"
-    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-01d388fcdfd284dc8449.js",
       "component---src-pages-index-js-01d388fcdfd284dc8449.js.map"
@@ -17,16 +13,16 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-a8fbde6db861a2b0d7eb.js",
-      "component---src-templates-blog-post-js-a8fbde6db861a2b0d7eb.js.map"
+      "component---src-templates-blog-post-js-ea552b1869beca423cf7.js",
+      "component---src-templates-blog-post-js-ea552b1869beca423cf7.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-3b7a2237251265257ba0.js",
       "component---src-layouts-index-js-3b7a2237251265257ba0.js.map"
     ],
     "path---index": [
-      "path---index-01e556b7f29369ee8739.js",
-      "path---index-01e556b7f29369ee8739.js.map"
+      "path---index-fbe6cadb616de79cd3ed.js",
+      "path---index-fbe6cadb616de79cd3ed.js.map"
     ],
     "commons": [
       "commons-4558505f1b2c85ff7eb3.js",
@@ -37,8 +33,12 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-fd056c94d246f620985a.js",
-      "app-fd056c94d246f620985a.js.map"
+      "app-00b5d89be5328d57a1a7.js",
+      "app-00b5d89be5328d57a1a7.js.map"
+    ],
+    "path---spaceman-spiffy-blog": [
+      "path---spaceman-spiffy-blog-eff93434b88058718a9a.js",
+      "path---spaceman-spiffy-blog-eff93434b88058718a9a.js.map"
     ]
   }
 }
