@@ -1,43 +1,46 @@
-import React from 'react'
+import React from 'react';
 
-import profilePic from './avatar.jpg'
-import { rhythm } from '../utils/typography'
+import profilePic from './avatar.jpg';
+import { rhythm } from '../utils/typography';
+import cursorWorld from './cursorWorld';
 
-const name = 'Darren Jennings'
+const name = 'Darren Jennings';
 
 class Bio extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-    render() {
-        return (
-            <p
-                style={{
-                    marginBottom: rhythm(2.5),
-                }}
-            >
-                <img
-                    src={profilePic}
-                    alt={this.props.name}
-                    className="avatar"
-                    style={{
-                        float: 'left',
-                        marginRight: rhythm(1 / 4),
-                        marginBottom: 0,
-                        width: rhythm(2),
-                        height: rhythm(2),
-                    }}
-                />
-                Hello, my name is <strong>{this.props.name}</strong>. I live and work in
-                San Francisco. &nbsp;<a
-                    target="_blank"
-                    href="https://twitter.com/darrenjennings"
-                >
-                    You should follow me on Twitter!
-                </a>
-            </p>
-        )
-    }
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    const computedCursor = cursorWorld();
+    return (
+      <p
+        style={{
+          marginBottom: rhythm(2.5),
+        }}
+      >
+        <img
+          src={profilePic}
+          alt={this.props.name}
+          className={'avatar' + ` ${computedCursor}`}
+          style={{
+            float: 'left',
+            marginRight: rhythm(1 / 4),
+            marginBottom: 0,
+            width: rhythm(2),
+            height: rhythm(2),
+          }}
+        />
+        Hello, my name is <strong>{this.props.name}</strong>. I live and work in
+        San Francisco. &nbsp;<a
+          target="_blank"
+          href="https://twitter.com/darrenjennings"
+        >
+          You should follow me on Twitter!
+        </a>
+      </p>
+    );
+  }
 }
 
-export default Bio
+export default Bio;

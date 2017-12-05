@@ -4,6 +4,7 @@ import { Container } from 'react-responsive-grid'
 import underline from '../components/underline.svg'
 import { rhythm, scale } from '../utils/typography'
 import '../scss/index.scss'
+import '../scss/cursorWorld.scss'
 
 const title = 'darren jennings'
 
@@ -21,10 +22,10 @@ class Template extends React.Component {
       header = (
         <h1
           style={{
-            ...scale(.5),
+            ...scale(0.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
-            margin: '0 auto'
+            margin: '0 auto',
           }}
         >
           <Link
