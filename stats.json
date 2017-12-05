@@ -1,12 +1,12 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-01d388fcdfd284dc8449.js",
-      "component---src-pages-index-js-01d388fcdfd284dc8449.js.map"
+      "component---src-pages-index-js-d33ff8f498e646692b26.js",
+      "component---src-pages-index-js-d33ff8f498e646692b26.js.map"
     ],
     "path---open-sourcing-my-first-vue-component": [
-      "path---open-sourcing-my-first-vue-component-be95edd5789a948f1a65.js",
-      "path---open-sourcing-my-first-vue-component-be95edd5789a948f1a65.js.map"
+      "path---open-sourcing-my-first-vue-component-348e48f8ea99884e4132.js",
+      "path---open-sourcing-my-first-vue-component-348e48f8ea99884e4132.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,32 +17,40 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-ea552b1869beca423cf7.js",
-      "component---src-templates-blog-post-js-ea552b1869beca423cf7.js.map"
+      "component---src-templates-blog-post-js-f1972c0f7fcfbeb826a3.js",
+      "component---src-templates-blog-post-js-f1972c0f7fcfbeb826a3.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-3b7a2237251265257ba0.js",
-      "component---src-layouts-index-js-3b7a2237251265257ba0.js.map"
+      "component---src-layouts-index-js-ef662cdc212e46f96ff9.js",
+      "component---src-layouts-index-js-ef662cdc212e46f96ff9.js.map"
     ],
     "path---index": [
-      "path---index-afdbb28d6e7b3f4d8125.js",
-      "path---index-afdbb28d6e7b3f4d8125.js.map"
+      "path---index-8c560da98064d4b69067.js",
+      "path---index-8c560da98064d4b69067.js.map"
     ],
     "commons": [
-      "commons-4558505f1b2c85ff7eb3.js",
-      "commons-4558505f1b2c85ff7eb3.js.map"
+      "commons-9f5e469dbe28aeb0464e.js",
+      "commons-9f5e469dbe28aeb0464e.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-e10ef08e8a1745918ad4.js",
-      "app-e10ef08e8a1745918ad4.js.map"
+      "app-bd8e8b451b69fe8d04cb.js",
+      "app-bd8e8b451b69fe8d04cb.js.map"
     ],
     "path---spaceman-spiffy-blog": [
       "path---spaceman-spiffy-blog-eff93434b88058718a9a.js",
       "path---spaceman-spiffy-blog-eff93434b88058718a9a.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-435ac7d367c573b9ee9a.js",
+      "component---src-pages-about-js-435ac7d367c573b9ee9a.js.map"
+    ],
+    "path---about": [
+      "path---about-ca8ed64dbc161cd73626.js",
+      "path---about-ca8ed64dbc161cd73626.js.map"
     ]
   }
 }

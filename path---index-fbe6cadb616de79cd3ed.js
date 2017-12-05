@@ -1,2 +1,0 @@
-webpackJsonp([0x81b8806e4260],{485:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Darren Jennings"}},allMarkdownRemark:{edges:[{node:{excerpt:"tl;dr  Check out  this cool app I built! I recently visited my hometown of Louisville, KY, where the coffee flows like wild horses. I had…",frontmatter:{path:"/spaceman-spiffy-blog/",date:"06 October, 2017",title:"Calvin and Hobbes Search"}}}]}},pathContext:{}}}});
-//# sourceMappingURL=path---index-fbe6cadb616de79cd3ed.js.map
